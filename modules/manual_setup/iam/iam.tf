@@ -98,8 +98,8 @@ resource "aws_iam_role_policy" "github_actions_custom" {
           "s3:PutBucketVersioning"
         ],
         Resource = [
-          "arn:aws:s3:::your-terraform-state-bucket",
-          "arn:aws:s3:::your-terraform-state-bucket/*"
+          "arn:aws:s3:::terraform-state-0205",
+          "arn:aws:s3:::terraform-state-0205/*"
         ]
       },
       {
